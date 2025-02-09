@@ -2,16 +2,16 @@ import requests
 from notion_client import Client
 
 # 🔑 API Notion
-NOTION_API_KEY = "ton_token_notion"
-DATABASE_ID_MACHINES = "ton_database_id_machines"
-DATABASE_ID_MODULES = "ton_database_id_modules"
+NOTION_API_KEY = "ntn_O85574266691LMRWYk2Q4EP04yUps5GD052G30Os0qa3Tq"
+DATABASE_ID_MACHINES = "1951fe0ff7ed80fa9c43e215a63e2ba3"
+DATABASE_ID_MODULES = "1951fe0ff7ed806380eac905fe70426e"
 
 notion = Client(auth=NOTION_API_KEY)
 
 # 🔐 Credentials HTB
-HTB_USERNAME = "Ton_Pseudo_HTB"
-HTB_EMAIL = "ton_email_htb"
-HTB_PASSWORD = "ton_mdp_htb"
+HTB_USERNAME = "noalbd"
+HTB_EMAIL = "noalabuda@gmail.com"
+HTB_PASSWORD = "ZDThr9sD6UeCp9f*"
 
 session = requests.Session()
 
