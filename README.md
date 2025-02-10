@@ -27,3 +27,31 @@ Le repo reste en ligne pour archive et référence, mais le script **ne marche p
 ## ✉️ Contact
 Si jamais tu trouves une nouvelle API ou une autre solution viable, n'hésite pas à faire un pull request ou à me contacter !
 
+---
+
+🚀 HTB to Notion - Project Abandoned
+📌 Description
+This project aimed to automate the integration of Hack The Box (HTB) machines and modules into Notion via their official API. The idea was to fetch data from HTB machines and Academy modules and store them properly in a Notion database.
+
+❌ Why Was the Project Abandoned?
+After multiple tests, it turned out that Hack The Box has restricted or removed access to its public API. The previously used endpoints no longer work, making it impossible to automate data retrieval.
+
+🔍 Issues Encountered:
+HTB's official API is inaccessible (404 or access denied).
+No updated documentation for a valid API.
+Automated scripts are blocked by HTB.
+Web scraping is possible but fragile and unreliable.
+🔄 Alternative Solutions
+If you're still looking for a way to integrate HTB into Notion, here are some alternatives:
+
+Manual Entry: Copy-paste key information into Notion.
+Web Scraping: Possible but hard to maintain.
+Wait for a New API: HTB might reopen its API in the future.
+Explore Other Platforms: Some HTB competitors have more open APIs.
+📌 Project Status
+🚨 Abandoned - No Longer Functional 🚨
+
+This repository remains online for archival and reference purposes, but the script no longer works.
+
+✉️ Contact
+If you find a new API or a viable solution, feel free to submit a pull request or reach out!
