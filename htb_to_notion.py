@@ -1,17 +1,22 @@
 import requests
+import os
+from dotenv import load_dotenv
 from notion_client import Client
 
-# 🔑 API Notion
-NOTION_API_KEY = "ntn_O85574266691LMRWYk2Q4EP04yUps5GD052G30Os0qa3Tq"
-DATABASE_ID_MACHINES = "1951fe0ff7ed80fa9c43e215a63e2ba3"
-DATABASE_ID_MODULES = "1951fe0ff7ed806380eac905fe70426e"
+# Charger les variables d'environnement
+load_dotenv()
+
+# API Notion
+NOTION_API_KEY = os.getenv("NOTION_API_KEY")
+DATABASE_ID_MACHINES = os.getenv("DATABASE_ID_MACHINES")
+DATABASE_ID_MODULES = os.getenv("DATABASE_ID_MODULES")
 
 notion = Client(auth=NOTION_API_KEY)
 
-# 🔐 Credentials HTB
-HTB_USERNAME = "noalbd"
-HTB_EMAIL = "noalabuda@gmail.com"
-HTB_PASSWORD = "ZDThr9sD6UeCp9f*"
+# Credentials HTB
+HTB_USERNAME = os.getenv("HTB_USERNAME")
+HTB_EMAIL = os.getenv("HTB_EMAIL")
+HTB_PASSWORD = os.getenv("HTB_PASSWORD")
 
 session = requests.Session()
 
